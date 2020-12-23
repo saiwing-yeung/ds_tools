@@ -4,7 +4,7 @@
 
 from setuptools import setup, find_packages
 
-with open('README') as readme_file:
+with open('README.md') as readme_file:
     readme = readme_file.read()
 
 with open('HISTORY.rst') as history_file:
@@ -45,7 +45,7 @@ setup(
     setup_requires=setup_requirements,
     test_suite='tests',
     tests_require=test_requirements,
-    url='https://github.com/saiwingy/ds_tools',
+    url='https://github.com/saiwing-yeung/ds_tools',
     version='0.1.0',
     zip_safe=False,
 )
